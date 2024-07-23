@@ -57,7 +57,7 @@ pipeline {
         //             def params = [
         //                string(name: 'appVersion', value: "${appVersion}")
         //             ]
-        //             build job: 'Deploy_pipeline', parameters: params, wait: false   
+        //             build job: 'frontend-deploy', parameters: params, wait: false   
         //         }
         //     }
         // }
